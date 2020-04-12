@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2860197e62c77d44a29ec6faf56cbd1, type: 3}
+  m_Name: Database
+  m_EditorClassIdentifier: 
+  buildingDatabase:
+  - buildingId: 0
+    buildingLevel: 1
+    buildingName: BUILDING A
+    buildingDescription: A description of building A.
+    buildingtype: 1
+    currentWorkers: 0
+    buildingResourceType: 1
+    buildingOutput: 0
+    buildingResourceCostTypeA: 1
+    buildingResourceCostTypeB: 2
+    buildingPriceA: 101
+    buildingPriceB: 101
+    buildingPrefab: {fileID: 7219710481590365667, guid: 739f36c21df0d83438404fe1af6d4301,
+      type: 3}
+    buildingUIPrefab: {fileID: 9112286524254856426, guid: 6f1206a587c447949874b6274af7e2ee,
+      type: 3}
+  - buildingId: 1
+    buildingLevel: 1
+    buildingName: BUILDING B
+    buildingDescription: A description of building A.
+    buildingtype: 1
+    currentWorkers: 0
+    buildingResourceType: 2
+    buildingOutput: 15
+    buildingResourceCostTypeA: 3
+    buildingResourceCostTypeB: 4
+    buildingPriceA: 50
+    buildingPriceB: 100
+    buildingPrefab: {fileID: 7219710481590365667, guid: 739f36c21df0d83438404fe1af6d4301,
+      type: 3}
+    buildingUIPrefab: {fileID: 9112286524254856426, guid: 6f1206a587c447949874b6274af7e2ee,
+      type: 3}
